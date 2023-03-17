@@ -99,4 +99,9 @@ describe('calcularPrestacoes', () => {
 
     expect(meuArray).not.sejaDecrescente()
   })
+
+  test('Teste 03 - Somar dois números', () => {
+    const soma = calculaValor.somar(2, 3)
+    expect(soma).toBe(5)
+  })
 })

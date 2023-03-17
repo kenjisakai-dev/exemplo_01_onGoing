@@ -31,8 +31,13 @@ function calcularPrestacoes (montante, numeroParcelas) {
   return resultado
 }
 
+function somar (a, b) {
+  return a + b
+}
+
 module.exports = {
   calcularMontante,
   arredondar,
-  calcularPrestacoes
+  calcularPrestacoes,
+  somar
 }
