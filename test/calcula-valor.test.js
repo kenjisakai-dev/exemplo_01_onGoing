@@ -2,7 +2,7 @@ const calculaValor = require('../src/calcula-valor.js')
 require('./extensoes')
 
 describe('calcularMontante', () => {
-  test('Com um prestação o montante é igual ao capital', () => {
+  test('Com um prestação o montante é igual ao capital.', () => {
     // Operação
     const montante = calculaValor.calcularMontante(100, 0.0175, 1)
 
