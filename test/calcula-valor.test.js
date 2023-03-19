@@ -100,3 +100,8 @@ describe('calcularPrestacoes', () => {
     expect(meuArray).not.sejaDecrescente()
   })
 })
+
+test('Teste 03 - Subtrair dois números', () => {
+  const diferenca = calculaValor.subtrair(4, 1)
+  expect(diferenca).toBe(3)
+})
